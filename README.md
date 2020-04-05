@@ -10,18 +10,27 @@ Iver-C adalah bahasa pemrograman sederhana berbasis C yang menggunakan interpret
 1. Kondisi
 
 if => iv
+
 else => elsv
+
 elseif => eliv
 
 2. Pengulangan
+
 for
+
 do => dv
+
 while => whilv
 
 3. Cetak
+
 print => prinv
 
 4. Logika
+
 && => anv
+
 || => ov
+
 ! 
