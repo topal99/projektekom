@@ -1,5 +1,5 @@
 #include "iver-parser.h"
-#include "iver-lexex.h"
+#include "iver-lexer.h"
 
 #include <stdio.h>
 #include <stdlib.h>
