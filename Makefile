@@ -1,22 +1,14 @@
-CFLAGS = -std=gnu11 -Wall -Werror
-NAME = interp
+INTERM=interpreter.c interpreter.h main.c
+PROGRAM=./iver
+CFLAGS=-g -Wall
+CC = gcc
+RM = rm -f
 
-SRCDIR := ./src
-OBJDIR := ./obj
-SRCS := $(addprefix $(SRCDIR)/, lex.c parse.c run.c main.c)
-OBJS := $(addprefix $(OBJDIR)/, $(notdir $(SRCS:.c=.o)))
 
-all: $(NAME)
+all: $(PROGRAM)
 
-$(OBJS): $(OBJDIR)/%.o : $(SRCDIR)/%.c
-	@mkdir -p $(OBJDIR)
-	$(CC) $(CFLAGS) -c $< -o $@
-
-$(NAME): $(OBJS)
-	$(CC) -o $(NAME) $^
-
-.PHONY: clean
+$(PROGRAM): $(INTERM)
+	$(CC) $(CFLAGS) -o $(PROGRAM) $(INTERM)
 
 clean:
-	rm -rf $(OBJDIR)
-	rm -f $(NAME)
+	$(RM) $(PROGRAM)
