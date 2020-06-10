@@ -1,38 +1,23 @@
-# Iver-C
-Iver-C adalah bahasa pemrograman sederhana berbasis C yang menggunakan interpreter untuk mengeksekusi kode program.
+# Mini-Interpreter
 
-## Kelompok 2 TI 2018 Rombel 1
-1. Muhammad Kahfi Aulia (4611418009)
-2. Oviv Haryanto (4611418012)
-3. Muhammad Taufal (4611418035)
+A basic C interpreter that can handle basic commands that are stored in a file which are then parsed and converted to instructions for the program to execute. These commands include basic arithmetic operations, reading and printing variable values, among others. Developed as the first assignment of the course Laboratório de Programação.
 
-## Sintaks
-1. Kondisi
+## How to execute
 
-if => iv
+To start, compile the files using the following command
 
-else => elsv
+```
+make
+```
+Afterwards to run the program type in the following
 
-elseif => eliv
+```
+./interpreter
+```
+Finally enter the file you wish to use and wait for the output
 
-2. Pengulangan
 
-for
+## Developed by
 
-do => dv
-
-while => whilv
-
-3. Baca/Cetak
-
-read => reav
-
-print => prinv
-
-4. Logika
-
-&& => anv
-
-|| => ov
-
-! 
+* **Frederico Emanuel** - [FredyR4zox](https://github.com/FredyR4zox)
+* **Pedro Unas** - [pedrounas](https://github.com/pedrounas)

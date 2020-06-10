@@ -1,0 +1,10 @@
+reav(k);
+p = 6 + k;
+iv p goto L1;
+p = p / 2;
+goto L2;
+label L1;
+p = 2 * p;
+prinv(p);
+label L2;
+quit;

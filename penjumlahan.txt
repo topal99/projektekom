@@ -1,0 +1,6 @@
+reav(angkaPertama);
+reav(angkaKedua);
+penjumlahan = angkaPertama + angkaKedua;
+prinv(penjumlahan);
+quit;
+

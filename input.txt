@@ -1,0 +1,8 @@
+reav(xd)
+prinv(xd)
+boas = 35 + 10
+iv boas goto l1
+prinv(xd)
+label l1
+prinv(boas)
+quit
