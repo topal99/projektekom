@@ -23,7 +23,9 @@ do => dv
 
 while => whilv
 
-3. Cetak
+3. Baca/Cetak
+
+read => reav
 
 print => prinv
 
