@@ -1,0 +1,6 @@
+reav(angkaPertama);
+reav(angkaKedua);
+perkalian = angkaPertama * angkaKedua;
+prinv(perkalian);
+quit;
+
